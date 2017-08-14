@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/soil_testing"
+            android:title="Soil Testing"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/crop_rotation"
+            android:icon="@drawable/ic_home"
+            android:title="Crop Rotation" />
+        <item
+            android:id="@+id/rain_analysis"
+            android:icon="@drawable/ic_home"
+            android:title="Rain Analysis" />
+
+        <item
+                android:id="@+id/aboutus"
+            android:icon="@drawable/ic_home"
+                android:title="About Us" />
+
+        <item
+            android:id="@+id/service"
+            android:icon="@drawable/ic_home"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_home"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/sign_in"
+            android:icon="@drawable/ic_home"
+            android:title="Sign In"/>
+       
+
+    </group>
+
+</menu>
