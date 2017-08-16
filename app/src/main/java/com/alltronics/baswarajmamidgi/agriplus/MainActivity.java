@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        tabLayout.getTabAt(0).setIcon(R.drawable.soiltest);
+        tabLayout.getTabAt(1).setIcon(R.drawable.rain);
+        tabLayout.getTabAt(2).setIcon(R.drawable.rotation);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -103,7 +106,60 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
+        switch (item.getItemId())
+        {
+            case R.id.home:
+            {
+                break;
+            }
+            case R.id.soil_testing:
+            {
+                Intent i=new Intent(MainActivity.this,MainActivity.class);
+                i.putExtra("currenttab",1);
+                startActivity(i);
+                break;
+            }
+            case R.id.crop_rotation:
+            {
+                Intent i=new Intent(MainActivity.this,MainActivity.class);
+                i.putExtra("currenttab",1);
+                startActivity(i);
+                break;
+            }
+            case R.id.rain_analysis:
+            {
+                Intent i=new Intent(MainActivity.this,MainActivity.class);
+                i.putExtra("currenttab",1);
+                startActivity(i);
+                break;
+            }
+            case R.id.aboutus:
+            {
+                Intent i=new Intent(MainActivity.this,AboutUs.class);
+                startActivity(i);
+                break;
+            }
+            case R.id.service:
+            {
+                Intent i=new Intent(MainActivity.this,Services.class);
+                startActivity(i);
+                break;
+            }
+            case R.id.profile:
+            {
+                Intent i=new Intent(MainActivity.this,Profile.class);
+                startActivity(i);
+                break;
+            }
+            case R.id.sign_in:
+            {
+                Intent i=new Intent(MainActivity.this,SignIn.class);
+                startActivity(i);
+                break;
+            }
+
+        }
+        return true;
     }
 
     /**

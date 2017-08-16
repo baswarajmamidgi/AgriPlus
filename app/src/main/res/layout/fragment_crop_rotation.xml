@@ -1,14 +1,44 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.alltronics.baswarajmamidgi.agriplus.CropRotation">
+    android:background="@drawable/croprotbg"
+    tools:context="com.alltronics.baswarajmamidgi.agriplus.RainAnalysis">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/textView"
+
+    <Spinner
+        android:id="@+id/select_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/white" />
+
+    <Spinner
+        android:id="@+id/select_district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select_state"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="crop rotation" />
+        android:layout_alignLeft="@+id/select_state"
+        android:layout_alignStart="@+id/select_state"
+        android:layout_below="@+id/select_district"
+        android:layout_marginTop="18dp"
+        android:scrollbars="vertical" />
 
-</FrameLayout>
+</RelativeLayout>
