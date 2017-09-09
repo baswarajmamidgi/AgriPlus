@@ -9,15 +9,12 @@
     <string name="navigation_drawer_close">close navigation drawer</string>
     <string name="title_activity_home">HomeActivity</string>
 
-    <string name="blacksoil">The black soils are also called regur (from the Telugu word Reguda) and black cotton soils because cotton is the most important crop grown on these soils	The black soils are also called regur (from the Telugu word Reguda) and black cotton soils because cotton is the most important crop grown on these soils
-The black soil is very retentive of moisture. It swells greatly and becomes sticky when wet in rainy season. Under such conditions, it is almost impossible to work on such soil because the plough gets stuck in the mud.</string>
+    <string name="blacksoil">The black soils are also called regur (from the Telugu word Reguda) and black cotton soils because cotton is the most important crop grown on these soils	The black soils are also called regur (from the Telugu word Reguda) and black cotton soils because cotton is the most important crop grown on these soil.</string>
 
 
-    <string name="redsoil">Red soils are formed by weathering of the ancient crystalline and metamorphic rocks. Their color is red due to their very high iron content. They are found in areas of low rainfall and is obviously less leached than laterite soils. They are sandier and less clayey soils.
+    <string name="redsoil">Red soils are formed by weathering of the ancient crystalline and metamorphic rocks. Their color is red due to their very high iron content. They are found in areas of low rainfall and is obviously less leached than laterite soils. They are sandier and less clayey soils.</string>
 
-Red Soil in India are poor in phosphorus, nitrogen and lime contents. The red soils covers a large portion of land in India. </string>
-
-    <string name="alluvialsoil">Alluvial soils are by far the largest and the most important soil group of India. Covering about 15 lakh sq km or about 45.6 per cent of the total land area of the country, these soils contribute the largest share of our agricultural wealth and support the bulk of India’s population.sMost of the alluvial soils are derived from the sediments deposited by rivers as in the Indo-Gangetic plain although some alluvial soils in the coastal areas have been formed by the sea waves.</string>
+    <string name="alluvialsoil">Alluvial soils are by far the largest and the most important soil group of India. Covering about 15 lakh sq km or about 45.6 per cent of the total land area of the country, these soils contribute the largest share of our agricultural wealth and support the bulk of India’s population.</string>
     <string name="title_activity_services">Services</string>
     <string name="title_activity_contact_us">ContactUs</string>
     <string name="title_activity_about_us">AboutUs</string>

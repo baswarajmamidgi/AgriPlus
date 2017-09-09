@@ -17,7 +17,7 @@
         app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText_email"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -28,19 +28,19 @@
         android:layout_centerHorizontal="true" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editText_password"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText_email"
+        android:layout_alignStart="@+id/editText_email"
+        android:layout_below="@+id/editText_email"
         android:layout_marginTop="48dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/sign"
+        android:id="@+id/btn_login"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:background="@drawable/custombutton"
@@ -58,16 +58,16 @@
         android:text="New User ! sign up?"
         android:textColor="@android:color/black"
         android:layout_marginTop="13dp"
-        android:layout_below="@+id/sign"
+        android:layout_below="@+id/btn_login"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText2"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/editText_password"
+        android:layout_alignRight="@+id/editText_password"
+        android:layout_below="@+id/editText_password"
         android:layout_marginTop="17dp"
         android:text="Forgot password?"
         android:textColor="@android:color/black" />

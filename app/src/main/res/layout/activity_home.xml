@@ -36,14 +36,14 @@
         android:id="@+id/soil"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
         android:background="@drawable/custombutton"
         android:backgroundTint="@color/colorPrimary"
         android:text="Soil Testing"
         android:textColor="@color/white"
-        android:textColorLink="@color/white" />
+        android:textColorLink="@color/white"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:id="@+id/rain"
@@ -64,15 +64,15 @@
         android:id="@+id/crop"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/rain"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/rain"
-        android:layout_marginBottom="22dp"
         android:background="@drawable/custombutton"
         android:backgroundTint="@color/colorPrimary"
         android:text="Crop Rotation"
         android:textColor="@color/white"
-        android:textColorLink="@color/white" />
+        android:textColorLink="@color/white"
+        android:layout_below="@+id/rain"
+        android:layout_alignLeft="@+id/rain"
+        android:layout_alignStart="@+id/rain"
+        android:layout_marginTop="49dp" />
 
 
 </RelativeLayout>

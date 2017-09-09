@@ -43,14 +43,7 @@ public class Services extends AppCompatActivity implements NavigationView.OnNavi
             case R.id.soil_testing:
             {
                 Intent i=new Intent(Services.this,MainActivity.class);
-                i.putExtra("currenttab",1);
-                startActivity(i);
-                break;
-            }
-            case R.id.crop_rotation:
-            {
-                Intent i=new Intent(Services.this,MainActivity.class);
-                i.putExtra("currenttab",1);
+                i.putExtra("currenttab",0);
                 startActivity(i);
                 break;
             }
@@ -61,6 +54,14 @@ public class Services extends AppCompatActivity implements NavigationView.OnNavi
                 startActivity(i);
                 break;
             }
+            case R.id.crop_rotation:
+            {
+                Intent i=new Intent(Services.this,MainActivity.class);
+                i.putExtra("currenttab",2);
+                startActivity(i);
+                break;
+            }
+
             case R.id.aboutus:
             {
                 Intent i=new Intent(Services.this,AboutUs.class);

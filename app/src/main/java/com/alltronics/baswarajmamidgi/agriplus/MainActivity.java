@@ -115,14 +115,14 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
             case R.id.soil_testing:
             {
                 Intent i=new Intent(MainActivity.this,MainActivity.class);
-                i.putExtra("currenttab",1);
+                i.putExtra("currenttab",0);
                 startActivity(i);
                 break;
             }
             case R.id.crop_rotation:
             {
                 Intent i=new Intent(MainActivity.this,MainActivity.class);
-                i.putExtra("currenttab",1);
+                i.putExtra("currenttab",2);
                 startActivity(i);
                 break;
             }
